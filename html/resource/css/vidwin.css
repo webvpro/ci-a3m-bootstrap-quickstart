@@ -1,0 +1,31 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,800');
+@import url('/resource/themes/ohmy/package/js-plugin/pretty-photo/css/prettyPhoto.css');
+@import url('/resource/themes/ohmy/package/js-plugin/rs-plugin/css/settings.css');
+@import url('/resource/themes/ohmy/package/js-plugin/hoverdir/css/style.css');
+@import url('/resource/themes/ohmy/package/font-icons/custom-icons/css/custom-icons.css');
+@import url('/resource/themes/ohmy/package/font-icons/custom-icons/css/custom-icons-ie7.css');
+@import url('/resource/themes/ohmy/package/css/layout.css');
+@import url('/resource/themes/ohmy/package/css/colors.css');
+@import url('/resource/themes/ohmy/package/css/dark-green.css');
+@import url('style.css');
+
+/*header*/
+#mainHeader #mainMenu {
+	float:inherit;
+}
+#mainMenu .responsive-nav{
+	float:left;
+	position:inherit;
+	margin-top:1.33em;
+	
+}
+
+#member-nav{
+	
+}
+
+.gridStyle {
+    border: 1px solid rgb(212,212,212);
+    width: 900px; 
+    height: 300px;
+}

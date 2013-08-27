@@ -1,0 +1,21 @@
+web1:
+  name: codeigniter
+  document_root: html
+  shared_writable_dirs: 
+    - application/cache
+    - application/logs
+    - html/upload
+  php_extensions:
+    - mysqli
+    - mysql
+  after_build:
+    # Move pagoda config file to app/config
+    - "mv pagoda/config.php application/config/config.php"
+    - "mv pagoda/database.php application/config/database.php"
+    - "mv pagoda/account/account.php application/config/account/account.php"
+    - "mv pagoda/account/facebook.php application/config/account/facebook.php"
+    - "mv pagoda/account/recaptcha.php application/config/account/recaptcha.php"
+    - "mv pagoda/account/twitter.php application/config/account/twitter.php"
+    
+db1:
+  name: blog

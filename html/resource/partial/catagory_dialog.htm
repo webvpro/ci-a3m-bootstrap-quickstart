@@ -1,0 +1,29 @@
+<div class="modal-header">
+    <h3>This is the title</h3>
+</div>
+<div class="modal-body">
+    <form id="new-contest-form">
+        <label for="contest-title">Title</label>
+        <input id="contest-title" type="text" maxlength="50" placeholder="Title of the Contest" />
+        <label for="contest-description">Description</label>
+        <textarea id="contest-description" rows="3"></textarea>
+        <label>Type</label>
+        <div class="btn-group" >
+          
+            <button ng-repeat="type in types" class="btn btn-primary" type="button" ng-model="type_radioModel.id" btn-radio="type.id">{{type.name}}</button>
+           
+        </div>
+        <label>Phase</label>
+        <div class="btn-group" >
+          
+            <button ng-repeat="phase in phases" class="btn btn-primary" type="button" ng-model="phase_radioModel.id" btn-radio="phase.id">{{phase.name}}</button>
+           
+        </div>
+        <label for="pro-fee">Pro Fee</label>
+        <input id="pro-fee" name="pro_fee" type="text" maxlength="50" placeholder="0.00" />
+        
+    </form>
+</div>
+<div class="modal-footer">
+    <button ng-click="close(contest)" class="btn btn-primary">Close</button>
+</div>

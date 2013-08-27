@@ -1,0 +1,35 @@
+v. 1.2
+
+- fixed chrome bug in revolution slider (bullets display) 
+- fixed missing margin-bottom on "team style 3"
+- fixed Firefox bug with transparent borders on testimonial arrows
+- fixed width and font rendering of carousel controls in IE8
+- fixed share icons in blog post not showing
+- allow use of basic <ol> and <ul> instead of built-in  styles.
+- added more space above header in content pages
+- added mb15 class, usefull for spacing between blocs in content
+- added revolution slider documentation
+- added "About us" template
+- added "Services" template
+- improved "Sidebar" and "fullwidth" template
+- improved content blockquotes design
+
+
+
+
+V. 1.3
+- fixed active tab border-color in light version
+- fixed shadow in isotope container
+- added "Portfolio classic"
+- added "Portfolio classic with sidebar"
+- added "Portfolio filterable with sidebar"
+- added "Portfolio single full width"
+- added Sharrre plugin
+
+
+V. 1.3.1
+- added easy customization of google map icon
+- fixed 'home3' rollover bug
+- added multipoints support for google map
+- updated to bootstrap 2.3.1
+- replaced sliders UI images with icon fonts (retina support)
